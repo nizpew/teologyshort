@@ -1,0 +1,96 @@
+#! /bin/sh
+
+#if no arg, prints help
+
+
+#first boot
+#sudo apt-get install bible-kjv espeak; mkdir ./Documents/constant-files; touch ./Documents/constant-files/teologylog
+
+
+if [ "$#" = '0' ] ; then
+	echo 'INVALID: NO ARGS
+	'
+	teologyshort -rr
+fi
+
+#'-s' = search
+if [ "$1" = '-s' ] ; then
+
+echo $(date -I) '|'	$2$3$4 >> ./Documents/constant-files/teologylog
+	    	    
+	       todolist -d 1
+	echo "Syntax:
+	_write 3 quotes of that specific book (E.G. Jhon)_
+	ex:	Jn1:1-5
+	"
+	sleep 2
+	piper "$(bible $2)" & bible $2 ;read input
+	if [ '$input'='' ]; then	cd; cd ./Documents/teologydir ; vim $(date -I) 
+	       todolist -d 1 > /dev/null 2>&1
+	       exit
+	       
+       fi
+
+
+fi 
+
+#'-h' = print help
+if [ "$1" = "-h" ] ; then
+echo '
+SYNTAX = teologyshort [-arg] [text to search, if -s arg]
+
+'-H' = show history
+
+'-m' = modify log 
+
+'-h' = print help
+
+'-rr' = recurrent automatic; predict from last log argument and send as automatic output
+
+'-s' = search versicle
+'
+fi
+
+
+#'-H' = show history
+if [ "$1" = "-H" ] ; then
+    cat ./Documents/constant-files/teologylog
+fi
+
+#'-m' = modify log
+if [ "$1" = "-m" ] ; then
+    vim ./Documents/constant-files/teologylog
+fi
+
+
+#'-rr' = recurrent automatic; predict from last log argument and send as automatic output
+#automatic search by log
+if [ "$1" = "-rr" ] ; then 
+	eog Downloads/photos/$(ls Downloads/photos/*gif | shuf | shuf | shuf) &
+
+	
+
+		echo $(date -I) '|'     $(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f 3 | cut -d ':' -f 1):$(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f 3 | cut -d '-' -f 2)-$(($(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f 3 | cut -d '-' -f 2)+5)) >> ./Documents/constant-files/teologylog
+	                    
+		todolist -d 1
+		echo "Syntax: _write 3 quotes of that specific book (E.G. Jhon)
+	       	ex:     Jn1:1-5
+		"
+		sleep 2
+		piper "$(tgpt -q "summary in 4 lines: $(bible $(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f 3 | cut -d '-' -f 1)-$(($(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f 3 | cut -d '-' -f 2)))) " sleep 6)" & 
+		tgpt -q "summary in 4 lines: $(bible $(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f 3 | cut -d '-' -f 1)-$(($(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f 3 | cut -d '-' -f 2)))) "
+		read input
+
+	       	
+		bible $(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f                         3 | cut -d ':' -f 1):$($(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f 3 | cut -d '-' -f 2)-5)-$(($(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f 3 | cut -d '-' -f 2))) ;read input
+
+
+
+
+
+		if [ '$input'='' ]; then        cd; cd ./Documents/teologydir ; vim $(date -I) 
+			todolist -d 1 > /dev/null 2>&1
+		fi
+	
+fi
+exit
