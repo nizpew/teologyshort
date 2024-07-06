@@ -18,3 +18,9 @@ you also have to install Piper, for text to speech
 ## OBS
 - teologyshort -rr (default with no arguments) will not pass to another number of the book when getting to its end. so when you reach 'Jn1:50-55 (suppose this as the last 5 lines of this Jn1)
 - you need to 'teologyshort -S Jn2:1-5' and you can keep without arguments until find the end of Jn2, so you do Jn3:1-5 , and so on..
+
+
+## YET TO DO
+    -piper installation tutorial, software and voice file
+    -make piper bin
+    -send videos folder and autoinstall them 
