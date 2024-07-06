@@ -6,7 +6,8 @@ AI-integrated script for summarizing Bible verses, reading 5 lines per day using
 
 ```bash
 sudo apt-get install eog bible-kjv espeak; mkdir ./Documents/constant-files; touch ./Documents/constant-files/teologylog
-```  you also have to install Piper, for text to speech
+```
+you also have to install Piper, for text to speech
 
 
 
