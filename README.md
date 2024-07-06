@@ -1,8 +1,12 @@
 ## teologyshort Script
-  This script allows you to perform various operations related to theological study and logging.
 
-## Dependencies, and setting envirment 
-    sudo apt-get install bible-kjv espeak; mkdir ./Documents/constant-files; touch ./Documents/constant-files/teologylog
+AI-integrated script for summarizing Bible verses, reading 5 lines per day using text-to-speech with natural voice, local Bible browsing (no internet required), and playing videos for entertainment while listening to Bible passages daily.
+
+## Dependencies and Environment Setup
+
+```bash
+sudo apt-get install eog bible-kjv espeak; mkdir ./Documents/constant-files; touch ./Documents/constant-files/teologylog
+  you also have to install Piper, for text to speech
 
 ## Usage
     telogyshort -S Jn1:1-5        #search for name manually
