@@ -66,7 +66,7 @@ fi
 #'-rr' = recurrent automatic; predict from last log argument and send as automatic output
 #automatic search by log
 if [ "$1" = "-rr" ] ; then 
-	eog Downloads/photos/$(ls Downloads/photos/*gif | shuf | shuf | shuf) &
+                eog Documents/constant-files$(ls ./Documents/constant-files*gif | shuf | shuf | shuf) &
 
 	
 
