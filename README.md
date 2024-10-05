@@ -38,4 +38,4 @@ also installs Piper, for text to speech
 
 ## TO DO
 
-    -Send videos folder and auto-install them.
+    -Local AI (Ollama based) capabilities.
