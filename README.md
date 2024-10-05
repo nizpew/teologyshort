@@ -1,5 +1,6 @@
 # teologyshort Script
-AI-integrated script for summarizing Bible verses, reading 5 lines per day using text-to-speech with natural voice, local Bible browsing (no internet required), and playing videos for entertainment while listening to Bible passages daily.
+Your best friend for concistend bible rading!!
+teologyshort is an AI-integrated script for summarizing Bible verses, reading 5 lines per day using text-to-speech with natural voice, local Bible browsing (no internet required), and playing videos for entertainment while listening to Bible passages daily.
 
 ## How to install
 ```bash
