@@ -40,6 +40,6 @@ cd
 cd teologyshort
 mv *gif ./Documents/constant-files/
 
-
+cd
 
 
