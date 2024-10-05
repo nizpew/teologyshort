@@ -38,5 +38,4 @@ also installs Piper, for text to speech
 ## TO DO
 
     -Send videos folder and auto-install them.
-    -Install TGPT (Terminal AI, Phind model based).
     -Local AI (Ollama based) capabilities.
