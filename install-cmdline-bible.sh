@@ -36,6 +36,10 @@ or even put subshells on it argument
 piper $(USER)
 
 "
+cd
+cd teologyshort
+mv *gif ./Documents/constant-files/
+
 
 
 
