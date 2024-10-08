@@ -8,7 +8,7 @@ cd
 git clone https://github.com/nizpew/teologyshort.git
 cd teologyshort
 chmod +x ./*.sh
-./taverngptinstallscript.sh
+./install-cmdline-bible.sh
 ```
 
 ## Usage
