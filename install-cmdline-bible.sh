@@ -6,9 +6,6 @@ curl -sSL https://raw.githubusercontent.com/aandrew-me/tgpt/main/install | bash 
 
 
 
-#setts piper files
-git clone https://huggingface.co/rhasspy/piper-voices
-cd piper-voices
 
 
 
@@ -23,6 +20,8 @@ git clone https://github.com/rhasspy/piper.git
 
 
 #dependencies
+#setts piper files
+
 sudo apt-get install -y eog bible-kjv espeak; mkdir /home/$USER/Documents/constant-files/; touch /home/$USER/Documents/constant-files/
 cd piper
 make
