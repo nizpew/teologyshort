@@ -12,8 +12,8 @@ chmod +x ./*.sh
 ```
 
 ## Usage
-    telogyshort -S Jn1:1-5        #search for name manually
-    telogyshort                   #search automatically. if last was Jn1:1-5, then will print the Jn1:5-10. five by five
+    teologyshort -S Jn1:1-5        #search for name manually
+    teologyshort                   #search automatically. if last was Jn1:1-5, then will print the Jn1:5-10. five by five
 
 
 ## OBSERVATIONS
