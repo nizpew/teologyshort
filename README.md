@@ -39,3 +39,4 @@ also installs Piper, for text to speech
 ## TO DO
 
     -Local AI (Ollama based) capabilities.
+    -maybe prettify installer
