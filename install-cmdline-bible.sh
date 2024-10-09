@@ -40,7 +40,8 @@ piper $($USER)
 "
 cd
 cd teologyshort
-mv *gif ./Documents/constant-files/
+mkdir /home/$USER/Documents/constant-files/
+mv *gif /home/$USER/Documents/constant-files/
 
 cd
 
