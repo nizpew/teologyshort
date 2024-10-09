@@ -26,14 +26,16 @@ sudo apt-get install -y eog bible-kjv espeak; mkdir ./Documents/constant-files; 
 cd piper
 make
 git clone https://huggingface.co/rhasspy/piper-voices
-mv piper-voices/en_US-libritts-high.onnx* ..
+mv /home/$USER/piper-voices/piper-voices/en/en_US/libritts/high/en_US-libritts-high.onnx* ..
+
+
 
 cd
 echo "finished. you can run with piper 'text i want to speak'
 or 
 piper text i want to speak
 or even put subshells on it argument
-piper $(USER)
+piper $($USER)
 
 "
 cd
