@@ -8,7 +8,7 @@
 
 
 if [ "$#" = '0' ] ; then
-	echo 'INVALID: NO ARGS
+	echo ' NO ARGS
 	'
 	teologyshort -rr
 fi
