@@ -28,9 +28,13 @@ make
 git clone https://huggingface.co/rhasspy/piper-voices
 mv /home/$USER/piper-voices/en/en_US/libritts/high/en_US-libritts-high.onnx* /home/$USER
 
-
+cd
+cd teologyshort
+mkdir /home/$USER/Documents/constant-files/
+mv *gif /home/$USER/Documents/constant-files/
 
 cd
+
 echo "finished. you can run with piper 'text i want to speak'
 or 
 piper text i want to speak
@@ -38,11 +42,7 @@ or even put subshells on it argument
 piper $($USER)
 
 "
-cd
-cd teologyshort
-mkdir /home/$USER/Documents/constant-files/
-mv *gif /home/$USER/Documents/constant-files/
 
-cd
+
 
 
