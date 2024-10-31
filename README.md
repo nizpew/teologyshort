@@ -38,8 +38,12 @@ sudo apt-get install eog bible-kjv espeak; mkdir ./Documents/constant-files; tou
 also installs Piper, for text to speech
 
 
+## Demo
+
+
+![demoteologyshort](https://github.com/user-attachments/assets/c5d88531-3908-44f8-bb0c-2ef0558debf9)
+
 ## TO DO
 
     -Local AI (Ollama based) capabilities.
     -maybe prettify installer
-    -demo video
