@@ -43,6 +43,26 @@ also installs Piper, for text to speech
 
 ![demoteologyshort](https://github.com/user-attachments/assets/c5d88531-3908-44f8-bb0c-2ef0558debf9)
 
+Videos:
+
+
+
+https://github.com/user-attachments/assets/7aec941d-3d7c-45d0-8e76-bca41ceded9a
+
+
+
+https://github.com/user-attachments/assets/12baca87-6569-461c-8734-c94b7b64c109
+
+
+
+https://github.com/user-attachments/assets/ce687870-7c1b-4c5e-85d1-22b0b63c3b90
+
+
+
+
+
+
+
 ## TO DO
 
     -Local AI (Ollama based) capabilities.
